@@ -1,0 +1,17 @@
+n=(input("enter your name"))
+s=int(input("enter marks in science"))
+m=int(input("enter marks in maths"))
+e=int(input("enter marks in english"))
+p=s+m+e
+d=p/300*100
+print(n)
+print(d) 
+if d>=85 and d<=95:
+ print("outstanding result")
+elif d>=70 and d<85:
+ print("Good result")
+elif d>=60 and d<70:
+ print("Just passed")
+elif d>=50 and d<60: 
+ print("failed")             
+            
