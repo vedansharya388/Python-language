@@ -1,0 +1,10 @@
+n=(input("enter your name"))
+s=int(input("enter marks in science"))
+m=int(input("enter marks in maths"))
+e=int(input("enter marks in english"))
+p=s+m+e
+d=p/300*100
+print(n)
+print(p)
+print(d)            
+            
