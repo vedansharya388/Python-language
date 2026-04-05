@@ -1,0 +1,11 @@
+n=(input("enter your name"))
+a=int(input("enter a number"))
+b=int(input("enter a number"))
+s=a+b
+p=s/200*100
+print(n)
+print(p)
+if p>=80 and p<=90:
+ print("very good")
+elif p>=60 and p<=70:
+ print("nice result")
