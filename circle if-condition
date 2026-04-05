@@ -1,0 +1,7 @@
+n=int(input("enter a number"))
+if n >= 10:
+  p=2*3.14*n
+  print(p)
+elif n <= 10:
+  a=3.14*n*n
+  print(a)
