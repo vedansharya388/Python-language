@@ -1,0 +1,9 @@
+n=(input("enter your name"))
+h=int(input("enter marks in history"))
+m=int(input("enter mrks in maths"))
+s=int(input("enter marks in science"))
+p=h+m+s
+d=p/3
+print(n)
+print(p)
+print(d)
