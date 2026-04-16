@@ -1,0 +1,16 @@
+n_str = input("Enter a number: ")
+if not n_str.isdigit():
+    print("Invalid input. Please enter a positive integer.")
+else:
+    n = int(n_str)
+    original_n = n
+    s = 0
+    while n > 0:
+        r = n % 10
+        s += r ** 3
+        n //= 10
+
+    if original_n == s:
+        print(original_n, "is an Armstrong number")
+    else:
+        print(original_n, "is not an Armstrong number")
