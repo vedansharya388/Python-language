@@ -1,0 +1,12 @@
+n=int(input("enter a number"))
+s=0
+i=1
+while n>0:
+    r=n%10
+    s=s+r
+    i=i*r
+    n=n//10 # Use integer division to remove the last digit
+if s==i:
+    print("its SPY number") # Note: This code checks if sum of digits equals product of digits, not for a mathematically perfect number.
+else:
+    print("its not SPY number")
