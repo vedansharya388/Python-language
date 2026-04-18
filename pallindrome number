@@ -1,0 +1,11 @@
+n=int(input("enter a number"))
+s=0
+m=n
+while m>0:
+  r=m%10
+  s=s*10+r
+  m=m//10
+if s==n:
+  print("its pallindrome number")
+else:
+  print("its not pallindrome number")  
