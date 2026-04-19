@@ -1,0 +1,14 @@
+name=input("enter your name")
+n=int(input("enter salary"))
+if n<=25000:
+  da=7/100*n
+  pf=2/100*n
+elif n>25000 and n<=50000:
+  da=9/100*n
+  pf=5/100*n
+else:
+  da=12/100*n
+  pf=13/100*n
+ns=n+da+pf
+print("name",n)
+print("net salry",ns)      
