@@ -1,0 +1,7 @@
+n=int(input("enter a two digit number"))
+r=n%10
+f=n%10
+if f>r:
+ print("first digit",r)
+else:
+  print("second digit",f) 
