@@ -1,0 +1,15 @@
+n=int(input("enter a number"))
+s=0
+m=n
+found_zero = False
+while m > 0:
+  r = m % 10
+  s = s + r
+  if r == 0:
+    found_zero = True
+  m = m // 10
+
+if found_zero:
+  print("It's a duck number")
+else:
+  print("It's not a duck number")
