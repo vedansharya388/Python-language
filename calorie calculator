@@ -1,0 +1,7 @@
+n=(input("enter your name"))
+s=int(input("enter number of steps walked"))
+cb=s*0.04
+km=s/1300
+print("customer name",n)
+print("calorie burned",cb)
+print("distance travelled",km)
