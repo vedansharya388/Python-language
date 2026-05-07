@@ -1,0 +1,20 @@
+name=(input("enter your name"))
+print("welcome to my calculator",name)
+n=int(input("enter a number"))
+m=int(input("enter a number"))
+print("choose type of arthmetic operation:\n1.addition\n2.substraction\n3.multiplication\n4.divison")
+op=int(input())
+if op==1:
+ s=n+m
+ print("Addition of two number is",s)
+if op==2:
+  s=n-m
+  print("substraction of two number is",s)
+elif op==3:
+  s=n*m
+  print("multiplication of two number is",s)
+elif op==4:
+  s=n/m
+  print("divison of two number is",s)
+else:
+  print("invalid operator")
