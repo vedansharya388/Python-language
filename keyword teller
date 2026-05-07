@@ -1,0 +1,6 @@
+n=int(input("enter a number"))
+m=float(input("enter a decimal number"))
+a=(input("enter a word or character"))
+print(type(n))
+print(type(m))
+print(type(a))
