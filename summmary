@@ -1,0 +1,7 @@
+n=(input("enter your full name"))
+c=int(input("enter your class"))
+s=(input("enter your section"))
+a=int(input("enter your age"))
+p=float(input("enter your class 10th percentage"))
+print("you are",n,"you study in class",c,s,"your age is",a)
+print("you scored",p,"in class 10th")
