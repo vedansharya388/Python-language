@@ -1,0 +1,8 @@
+l=(input("enter a character"))
+n=int(input("enter a number"))
+s=float(input("enter a decimal number"))
+v=complex(input("enter a complex character"))
+print(type(l))
+print(type(n))
+print(type(s))
+print(type(v))
